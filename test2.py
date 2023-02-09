@@ -19,7 +19,7 @@ if daysToExpiration == 39 or daysToExpiration == 10:
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
     server.login('abhisheksaini7029@gmail.com','bicdfeyuugoaypuv')
-    server.sendmail('abhisheksaini7029@gmail.com','pankaj@tothenew.com','Your certificate is about to expire in 39 days - pelase renew it ')
+    server.sendmail('abhisheksaini7029@gmail.com','abhishek1@tothenew.com','Your certificate is about to expire in 39 days - pelase renew it ')
 
     # send_notification(daysToExpiration)
 # print (daysToExpiration)
